@@ -345,3 +345,39 @@
     left: 0;
     color: #333; /* Set a fallback color for browsers that don't support text-fill-color */
 }
+.stats{
+    width: 100%;
+    height: 150px;
+    border: 2px solid red;
+    margin-top: 50px;
+    display: flex;
+}
+.stats .rental-companies{
+    width: 25%;
+    height: 60%;
+    border: 2px solid red;
+    margin-top: 28px;
+    margin-bottom: 28px;
+
+}
+.stats .cars-registered{
+    width: 25%;
+    height: 60%;
+    border: 2px solid red;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.stats .satisfied-clients{
+    width: 25%;
+    height: 60%;
+    border: 2px solid red;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.stats .avg-booking-time{
+    width: 25%;
+    height: 60%;
+    border: 2px solid red;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
