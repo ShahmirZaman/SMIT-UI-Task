@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.upper-navbar{
+    width: 100%;
+    height: 65px;
+    /* border: 2px solid red; */
+    background-color: #005085;
+    display: flex;
+
+}
+.db-uae{
+    width: 7%;
+    height: 100%;
+    /* border: 2px solid red;
+    background-color: blue; */
+    margin-left: 50px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#uae-flag{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.flags{
+    background-color: #005085;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.db-english{
+    width: 7%;
+    height: 100%;
+    /* border: 2px solid red;
+    background-color: blue; */
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#usa-flag{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.language{
+    background-color: #005085;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.db-aed{
+    width: 7%;
+    height: 100%;
+    /* border: 2px solid red;
+    background-color: blue; */
+    margin-left: 20px;
+    margin-right: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#uae-currency{
+    width: 20px;
+    height: 20px; 
+    
+}
+.currency{
+    background-color: #005085;
+    color: white;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.arabic{
+    width: 7%;
+    height: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    /* background-color: blue;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.lower-navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #ffffff;
+    /* border: 2px solid red; */
+}
+.rent{
+    width: 10%;
+    height: 100%;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#rent-logo{
+    width: 50px;
+    height: 40px;
+    background-image: none;
+}
+.rent-logo-text{
+    font-size: xx-large;
+    font-weight: 600;
+    color: #17a7eb;
+}
+.dblists{
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.list1{
+    margin-left: 120px;
+}
+.list6{
+    margin-left: 120px;
+    margin-right: 5px;
+}
+.db{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: black;
+    font-weight: 500;
+}
+.dblists a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.btn-started{
+    width: 13%;
+    height: 50%;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #49b9eb;
+}
+.arrow{
+    margin-left: 7px;
+    color: white;
+}
+.upper-section{
+    width: 100%;
+    height: 74vh;
+    background-color: #f5f6fb;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.u-text-section{
+    width: 50%;
+    height: 65vh;
+    /* border: 2px solid red; */
+}
+.u-image-section{
+    width: 50%;
+    height: 65vh;
+    /* border: 2px solid red; */
+}
+.u-image-section img{
+    width: 100%;
+    height: 100%;
+}
+.u-text-section h3{
+    font-weight: 200;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-top:  40px;
+}
+.u-text-section h3 span{
+    font-weight: 800;
+}
+.u-text-section h1{
+    margin-left: 50px;
+    font-size: 60px;
+}
+.u-text-section h4{
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.app-store{
+    width: 120px;
+    height: 36px;
+    margin-left: 50px;
+}
+.google-store{
+    width: 120px;
+    height: 40px;
+    margin-left: 15px;
+}
+.u-search-section{
+    width: 75%;
+    height: 110px;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    box-shadow: 0px 10px 5px 2px #9c9c9c;
+    margin-left: 240px;
+    background-color: #ffffff;
+    display: flex;
+}
+.input-location{
+    width: 35%;
+    height: 110px;
+    /* border-right: 1px solid #9c9c9c; */
+    
+}
+.input-location div{
+    margin-top: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 30px;
+    position: relative;
+
+}
+.date{
+    width: 20%;
+    height: 110px;
+    border-left: 1px solid #9c9c9c;
+    /* border-right: 1px solid #9c9c9c; */
+    
+}
+.date div{
+    
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 25px;
+    position: relative;
+}
+.date .date-value{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+.date .date-title{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #9c9c9c;
+}
+.bx-calendar{
+    position: absolute;
+    margin-top: 14px;
+}
+.time{
+    width: 10%;
+    height: 110px;
+    border-left: 1px solid #9c9c9c;
+    /* border-right: 1px solid #9c9c9c; */
+
+}
+.time div{
+    
+    position: relative;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 25px;
+}
+.time .time-value{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a0a0a;
+}
+.time .time-title{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #9c9c9c;
+}
+.bx-time-five{
+    position: absolute;
+    margin-top: 14px;
+}
+.btn-search{
+    width: 10%;
+    height: 110px;
+    border-left: 1px solid #9c9c9c;
+    border-radius: 10px;
+    /* border-right: 1px solid #9c9c9c; */
+    background-color: #1aa9e5;
+    color: #f5f6fb;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+/* .bx-search{
+    font-size: 30px;
+    padding-top: 40px;
+    margin-top: 30px;
+} */
+.input-location  div input[type="text"] {
+    margin-top: 4px;
+    font-size: 15px;
+    position: absolute;
+    color: #9c9c9c;
+    border: none;
+}
+.u-stats-section{
+    border: 2px solid red;
+    width: 100%;
+    height: 500px;
+}
+.u-stats-section h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-top: 30px;
+    font-size: 48px;
+}
+/* #rentacar-color{
+    background: linear-gradient(to right, #ff6600, #3366cc);
+} */
+.gradient-text {
+    position: relative;
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(to right, #ff6600, #3366cc);
+    background-clip: text;
+    -webkit-background-clip: text; /* For webkit-based browsers */
+    color: transparent;
+    /* text-fill-color: transparent; */
+}
+
+.gradient-text::before {
+    content: attr(data-text); /* Use the content attribute to display the text */
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #333; /* Set a fallback color for browsers that don't support text-fill-color */
+}
